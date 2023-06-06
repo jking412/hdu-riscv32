@@ -1,0 +1,9 @@
+add t0,t1,t2
+slli t0,t1,3
+addi t0,t1,2
+lb t0,12(t1)
+sb t0,4(t1)
+beq t0,t1,12
+jalr t0,8(t1)
+jal t0,16
+lui t0,12

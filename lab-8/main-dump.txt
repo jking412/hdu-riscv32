@@ -1,0 +1,10 @@
+
+main.o:     file format elf32-littleriscv
+
+Contents of section .text:
+ 0000 93022300 37030001 b3025300 130e1e00  ..#.7.....S.....
+ 0010 b382c241                             ...A            
+Contents of section .riscv.attributes:
+ 0000 412c0000 00726973 63760001 22000000  A,...riscv.."...
+ 0010 05727633 32693270 315f6632 70325f64  .rv32i2p1_f2p2_d
+ 0020 3270325f 7a696373 72327030 00        2p2_zicsr2p0.   
